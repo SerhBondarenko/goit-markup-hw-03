@@ -119,7 +119,6 @@ p {
 /*Секция-герой*/
 .hero-section {
   padding: 200px 0 200px 0;
-  margin-bottom: 94px;
   background-color: #2f303a;
 }
 .hero {
@@ -192,7 +191,6 @@ p {
 /*Чем мы занимаемся*/
 
 .section-title {
-  padding-top: 94px;
   padding-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
@@ -241,7 +239,6 @@ p {
 
 .ouer-team {
   display: flex;
-  padding-bottom: 94px;
 }
 .ouer-team .team-list + .team-list {
   margin-left: 30px;
@@ -309,6 +306,9 @@ address a {
 .page-header {
   margin-bottom: 95px;
   border: 1px solid #ececec;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .cursor {
@@ -333,13 +333,14 @@ address a {
 
 /*Портфолио работ*/
 .button-list {
-  display: flex;
+  display: flex; justify-content: center;
 }
 .button-list .button-cursor + .button-cursor {
   margin-left: 8px;
 }
 .main-buttons {
   margin-bottom: 34px;
+  
 }
 
 .cursor:hover,
@@ -400,9 +401,11 @@ address a {
   margin-left: auto;
   margin-right: auto;
 }
-.margin {
-  margin-bottom: 93px;
+
 }
 .button-list {
   justify-content: center;
 }
+.section {padding-bottom: 94px;
+}
+.section-top {padding-top: 94px;}
