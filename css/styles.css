@@ -333,14 +333,14 @@ address a {
 
 /*Портфолио работ*/
 .button-list {
-  display: flex; justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .button-list .button-cursor + .button-cursor {
   margin-left: 8px;
 }
 .main-buttons {
   margin-bottom: 34px;
-  
 }
 
 .cursor:hover,
@@ -402,10 +402,12 @@ address a {
   margin-right: auto;
 }
 
-}
 .button-list {
   justify-content: center;
 }
-.section {padding-bottom: 94px;
+.section {
+  padding-bottom: 94px;
 }
-.section-top {padding-top: 94px;}
+.section-top {
+  padding-top: 94px;
+}
