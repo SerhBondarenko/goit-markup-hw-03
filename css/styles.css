@@ -191,7 +191,7 @@ p {
 /*Чем мы занимаемся*/
 
 .section-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -215,8 +215,7 @@ p {
 .team {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 4px;
   text-align: center;
   font-weight: 500;
   font-size: 16px;
@@ -228,7 +227,6 @@ p {
 .profession {
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 30px;
   text-align: center;
   font-weight: normal;
   font-size: 16px;
@@ -281,17 +279,22 @@ address a {
   color: var(--white-color);
 }
 .logo-footer {
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
-.inform {
-  padding-bottom: 60px;
-}
+
 .contact-footer {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .inform :last-child {
   padding-bottom: 0;
+}
+.inform-list {
+  padding: 60px 0 60px 0;
 }
 /*.site-nav :last-child {
   margin-right: 0;
@@ -304,11 +307,7 @@ address a {
 /* Page header*/
 
 .page-header {
-  margin-bottom: 95px;
-  border: 1px solid #ececec;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  border-bottom: 1px solid #ececec;
 }
 
 .cursor {
@@ -340,7 +339,7 @@ address a {
   margin-left: 8px;
 }
 .main-buttons {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .cursor:hover,
@@ -350,8 +349,7 @@ address a {
 }
 
 .project {
-  margin: 20px 0 4px 24px;
-
+  margin-bottom: 4px;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -360,8 +358,6 @@ address a {
   color: var(--title-text-color);
 }
 .project-title {
-  margin: 0 0 20px 24px;
-
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -384,7 +380,9 @@ address a {
 .flex-element:nth-child(3n) {
   margin-right: 0;
 }
-
+.filter-card {
+  padding: 20px 24px;
+}
 /*Альернатива*/
 /*.flex-element:not(nth-last-child(-n + 3)){
   margin-right: 30px;}*/
@@ -407,7 +405,8 @@ address a {
 }
 .section {
   padding-bottom: 94px;
-}
-.section-top {
   padding-top: 94px;
+}
+.card-title {
+  padding: 30px 0 30px 0;
 }
